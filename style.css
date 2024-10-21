@@ -4,7 +4,6 @@
   padding: 0;
   list-style-type: none;
   text-decoration: none;
-  color: white;
   letter-spacing: 0.8px;
 }
 
@@ -33,6 +32,7 @@ html {
   a {
     font-size: 1.2rem;
     text-transform: uppercase;
+    color: white;
   }
 }
 
@@ -52,13 +52,117 @@ html {
   background-attachment: fixed;
 }
 
-.title{
+.title {
   width: 85rem;
   text-align: center;
   margin: 0 auto;
   margin-top: 20rem;
-  h1{
+  h1 {
     font-size: 7.24rem;
-    font-weight:400 ;
+    font-weight: 400;
+    color: white;
   }
+}
+
+/* MAIN(BLOG) SECTION STYLES1 */
+.container {
+  margin: 0 auto;
+  background-color: white;
+  width: 100rem;
+  border-radius: 1px;
+  /* box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075); */
+}
+
+.blog-desc {
+  padding: 4.8rem 12.8rem;
+  text-align: justify;
+  p {
+    font-size: 1.6rem;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+    line-height: 2;
+    margin-bottom: 4rem;
+  }
+
+  > .first-paraghaph::first-letter {
+    font-size: 4.8rem;
+    color: black;
+    text-transform: capitalize;
+  }
+}
+
+/* COMMENT SECTION STYLES */
+
+.comment-section {
+  background-color: #f2f4f1;
+  text-align: center;
+}
+
+.comments {
+  padding: 9.6rem 12.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 3.2rem;
+    font-weight: 400;
+  }
+  span {
+    display: block;
+    margin-top: 0.3rem;
+    font-size: 1.4rem;
+  }
+
+  input {
+    display: block;
+    width: 40rem;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 2px;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    font-family: inherit;
+    font-size: 1rem;
+    margin: 3rem 0;
+  }
+
+  button {
+    padding: 1rem 2rem;
+    border: 2px solid black;
+    letter-spacing: 0.5px;
+    font-family: inherit;
+    cursor: pointer;
+    margin-bottom: 4rem;
+  }
+}
+
+.users-comments {
+  width: 30rem;
+  li {
+    margin: 2rem 0;
+    list-style-image: url(assets/img/User_02.png);
+  }
+}
+
+/* FOOTER SECTION STYLES */
+footer {
+  background-color: white;
+  .footer{
+    padding: 4.8rem 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/* HELPER CLASSES */
+
+.margin-top {
+  margin: -15rem auto auto auto;
+}
+
+.bgc-secondary {
+  background-color: #f2f4f1;
 }

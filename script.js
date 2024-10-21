@@ -1,4 +1,4 @@
-// create section
+// create elements section
 const section = document.createElement("section");
         const headerDiv = document.createElement("div");
         const nav = document.createElement("nav");
@@ -49,7 +49,7 @@ function CreateBlog(title, descryption, author, comment, category, like, date) {
  
     // this method is for creating blog
     this.createBlog = function() {
-        // creating elements
+        
         
         // adding classes & appending elements
         section.classList.add("hero-section");
@@ -135,7 +135,7 @@ function CreateBlog(title, descryption, author, comment, category, like, date) {
         document.body.appendChild(footer);
     }
 
-    // getting comment 
+    // getting comment method => this is method is for getting comment
     this.getComment = function(comment){
         this.comment = comment;
         const li = document.createElement("li");

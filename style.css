@@ -91,6 +91,37 @@ html {
   }
 }
 
+.detail {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.author {
+  margin-left: 0.3rem;
+}
+
+.like {
+  cursor: pointer;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.time{
+  margin-left: .3rem;
+}
+
+.tag{
+  padding: 1rem 2rem;
+  background-color:#dfe4de ;
+  border-radius: 20px;
+}
+
 /* COMMENT SECTION STYLES */
 
 .comment-section {
@@ -149,7 +180,7 @@ html {
 /* FOOTER SECTION STYLES */
 footer {
   background-color: white;
-  .footer{
+  .footer {
     padding: 4.8rem 2.4rem;
     display: flex;
     justify-content: space-between;

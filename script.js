@@ -141,7 +141,7 @@ function CreateBlog(title, descryption, author, category, like, date) {
         this.comment = comment;
         const li = document.createElement("li");
         li.classList.add("blog-comments");
-        li.textContent = comment;
+        li.textContent = this.comment;
         ul.appendChild(li);
     }
 

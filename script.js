@@ -48,7 +48,7 @@ function CreateBlog(title, descryption, author, comment, category, like, date) {
     this.comment = comment;
  
     // this method is for creating blog
-    this.createBlog = function() {
+    this.showBlog = function() {
         
         
         // adding classes & appending elements
@@ -120,7 +120,8 @@ function CreateBlog(title, descryption, author, comment, category, like, date) {
         // button.addEventListener("click", addComents);
         commentsDiv.appendChild(button);
         usersCommentsDiv.classList.add("users-comments");
-        containerDiv2.appendChild(usersCommentsDiv);
+        // containerDiv2.appendChild(usersCommentsDiv);
+        commentsDiv.appendChild(usersCommentsDiv);
         usersCommentsDiv.appendChild(ul);
         // li.classList.add("blog-comments");
         // li.textContent = this.comment;

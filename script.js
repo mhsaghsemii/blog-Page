@@ -54,10 +54,10 @@ function CreateBlog(title, descryption, author, category, like, date) {
         // adding classes & appending elements
         section.classList.add("hero-section");
         headerDiv.classList.add("header");
+        titleDiv.classList.add("title");
         section.appendChild(headerDiv);
         section.appendChild(titleDiv);
         headerDiv.appendChild(nav);
-        titleDiv.classList.add("title");
         titleDiv.appendChild(h1title);
         h1title.id = 'blog-title';
         h1title.textContent = this.title;
@@ -75,7 +75,6 @@ function CreateBlog(title, descryption, author, category, like, date) {
         navUl.appendChild(navLi2);
         navUl.appendChild(navLi3);
         headerDiv.appendChild(nav);
-        section.appendChild(headerDiv);
         section2.classList.add("blog-section");
         containerDiv.classList.add("container");
         containerDiv.classList.add("margin-top");

@@ -49,6 +49,42 @@ function CreateBlog(title, descryption, author, category, like, date) {
  
     // this method is for creating blog
     this.showBlog = function() {
+        const section = document.createElement("section");
+        const headerDiv = document.createElement("div");
+        const nav = document.createElement("nav");
+        const navUl = document.createElement("ul");
+        const titleDiv = document.createElement("div");
+        const h1title = document.createElement("h1");
+        const navLi1 = document.createElement("li");
+        const navLi2 = document.createElement("li");
+        const navLi3 = document.createElement("li");
+        const navLink1 = document.createElement("a");
+        const navLink2 = document.createElement("a");
+        const navLink3 = document.createElement("a");
+        const section2 = document.createElement("section");
+        const blogDiv = document.createElement("div");
+        const p = document.createElement("p");
+        const detailDiv = document.createElement("div");
+        const authorDiv = document.createElement("div");
+        const h3 = document.createElement("h3");
+        const a = document.createElement('a');
+        const tagDiv = document.createElement("div");
+        const firstA = document.createElement("a");
+        const secondA = document.createElement("a");
+        const section3 = document.createElement("section");
+        const containerDiv2 = document.createElement("div");
+        const commentsDiv = document.createElement("div");
+        const h2 = document.createElement("h2");
+        const span = document.createElement("span");
+        const input = document.createElement("input");
+        const button = document.createElement("button");
+        const usersCommentsDiv = document.createElement("div");
+        const ul = document.createElement("ul");
+        // const li = document.createElement("li");
+        const footer = document.createElement("footer");
+        const footerDiv = document.createElement("div");
+        const socialDiv = document.createElement("div");
+        const containerDiv = document.createElement("div");
         
         
         // adding classes & appending elements

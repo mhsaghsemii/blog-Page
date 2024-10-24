@@ -37,14 +37,11 @@ const section = document.createElement("section");
         const containerDiv = document.createElement("div");
 
 // creating blog using constructor function
-function CreateBlog(title, descryption, author, category, like, date) {
+function CreateBlog(title, descryption, author) {
     // setting values
     this.title = title;
     this.descryption = descryption;
     this.author = author;
-    this.date = date;
-    this.category = category;
-    this.like = like;
     // this.comment = comment;
  
     // this method is for creating blog
@@ -80,7 +77,7 @@ function CreateBlog(title, descryption, author, category, like, date) {
         const button = document.createElement("button");
         const usersCommentsDiv = document.createElement("div");
         const ul = document.createElement("ul");
-        // const li = document.createElement("li");
+        const li = document.createElement("li");
         const footer = document.createElement("footer");
         const footerDiv = document.createElement("div");
         const socialDiv = document.createElement("div");
